@@ -1,0 +1,133 @@
+/* CSS Commment*/
+
+/* Starter Code
+main{
+  margin-bottom: 100px;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+tr{
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+
+ End of Starter Code*/
+
+ nav{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav .current{
+  text-decoration: underline 3px;
+  text-transform: uppercase;
+}
+
+
+/*header{
+    position: fixed;
+    top: 0;
+}*/
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body p :last-child{
+    border: 3px solid black;
+}
+
+h1{
+    font-size: 40px;
+}
+
+main{
+    
+}
+
+.personas{
+  grid-template-columns: auto;
+  grid-column: 1 / 1;
+}
+
+.design_solution{
+  grid-template-columns: auto;
+  grid-column: 1 / 2;
+}
+
+p a{
+  /* color: white; */
+  background-color: #0076BA; /* Blue */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /* I got this code from w3schools. 
+  (https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic) */
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    min-height: 50px;
+}
+
+
+
+/*CSS Code for Sdebar on Desktop view
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+*/
